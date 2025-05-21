@@ -1,0 +1,57 @@
+:root {
+    --primary-white: white;
+    --primary-black: black;
+    --bg-color: #111;
+    --text-color: #c5c3c3;
+    --primary-color: #444;
+    --badge-bg: #444;
+    --badge-text: #fff;
+    --border-color: rgba(103, 103, 103, 0.2);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+}
+
+.divider {
+    margin: 0 5px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+
+
+/* Profile section */
+#profile h2{
+    background: -webkit-linear-gradient(135deg, gray, darkgrey);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+#profile .profile-img {
+    border-radius: 100%;
+}
+
+#profile .vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#about h5 {
+    color: var(--text-color);
+    font-weight: bolder;
+}
+
+
+#dash h2{
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+#dash p {
+    margin: 0;
+}
